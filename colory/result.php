@@ -24,6 +24,7 @@ if($colorg >= $backcolorg){echo $backcolorg/$colorg*100 . "% for GREEN <br/>";}
 else{echo $colorg/$backcolorg*100 . "% for GREEN <br/>";}
 if($colorb >= $backcolorb){echo $backcolorb/$colorb*100 . "% for BLUE <br/>";}
 else{echo $colorb/$backcolorb*100 . "% for BLUE <br/>";}
+echo "<br/><br/><a href='index.php'>Play Another Round!</a>";
 ?>
 <center>
 </html>
